@@ -39,3 +39,19 @@ let items = [
     }
 ]
 //print the items
+for (let item of items) {
+    document.getElementById("merlin").innerHTML += `
+    <div class="card" style="width: 18rem;">
+  <img src="/shop/images/${item.img}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">${item.name}</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">${item.price}€</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+  </div>
+</div>`
+
+};
