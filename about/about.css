@@ -4,14 +4,11 @@
     position: relative;
 }
 
-.title-big{
-    font-family: gruppo;
-}
-
 /* Little box with text */
 .blockabout {
     padding: 20px;
     background: white;
+    font-family: Guppo;
 }
 
 .blockabout-inner {
