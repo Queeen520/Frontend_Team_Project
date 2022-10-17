@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+/* Font Name: Patrick Hand SC */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* Font Name: Roboto Mono */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+/* Font Name: IBM Plex Mono */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+/* Font Name: Marcellus */
+
+:root {
+    --white: #f5f5f5;
+    --lightgrey: #BEBEBE;
+    --grey: #999999;
+    --lightbrown: #C8AD7D;
+    --brown: #A6795B; 
+    };
