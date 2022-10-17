@@ -1,10 +1,10 @@
 .logo {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
 }
 
 #mainNavigation a {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     font-size:14px;
     text-transform:uppercase;
     letter-spacing:2px;
