@@ -53,5 +53,4 @@ for (let item of items) {
     <a href="#" class="card-link">Card link</a>
   </div>
 </div>`
-
 };
