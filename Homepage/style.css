@@ -1,10 +1,10 @@
 .logo {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
 }
 
 #mainNavigation a {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     font-size:14px;
     text-transform:uppercase;
     letter-spacing:2px;
@@ -46,17 +46,4 @@
   #navbarNavDropdown.show .navbar-nav{
     background:#037582;
     padding:12px;
-  }
-
-
-  .hero-img {
-width: 100%;
-opacity: 0.7;
-
-
-  }
-  .hero-section {
-background-color: black;
-
-
   }
