@@ -5,53 +5,52 @@ let items = [
         name: "The shark",
         description: "etcetcetc",
         img: "hai.jpg",
-        price: 23
+        price: 50
     },
     {
         name: "The ocean",
         description: "etcetcetc",
         img: "ocean.jpg",
-        price: 23
+        price: 124
     },
     {
         name: "The jellyfish",
         description: "etcetcetc",
         img: "qualle.jpg",
-        price: 24
+        price: 200
     },
     {
         name: "The white bird",
         description: "etcetcetc",
         img: "vogel.jpg",
-        price: 24
+        price: 60
     },
     {
         name: "The desert",
         description: "etcetcetc",
         img: "wueste.jpg",
-        price: 24
+        price: 85
     },
     {
         name: "The wind turbine",
         description: "Stalled wind turbines cost hundreds of millions of euros.",
         img: "windkraft.jpg",
-        price: 24
+        price: 75
     }
 ]
 //print the items
 for (let item of items) {
     document.getElementById("merlin").innerHTML += `
-    <div class="card" style="width: 18rem;">
-  <img src="/shop/images/${item.img}" class="card-img-top" alt="...">
+    <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 25rem;">
+  <img src="/shop/images/${item.img}" class="card-img-top" alt="" style="width: 100%; text-align: center" >
   <div class="card-body">
     <h5 class="card-title">${item.name}</h5>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">${item.price}€</li>
+    <li class="list-group-item">${item.price}.00€</li>
   </ul>
   <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
+  <button class = "button">Buy</button>
   </div>
 </div>`
-
 };
