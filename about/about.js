@@ -42,11 +42,3 @@ function sendEmail() {
 }
 
 
-document.getElementById('box').addEventListener('click', sendEmail2);
-function sendEmail2(){
-    var getValue4 = document.getElementById("message");
-    var inputs = document.getElementsByTagName("input");
-
-}
-
-
