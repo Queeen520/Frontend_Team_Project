@@ -3,8 +3,23 @@
     height: 45px;
 }
 
+#main-page {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/close-up-view-male-hand-holding-professional-camera-street.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-page h1 {
+  color: white;
+}
+
 #mainNavigation a {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Gruppo', sans-serif;
     font-size:14px;
     text-transform:uppercase;
     letter-spacing:2px;
@@ -12,54 +27,54 @@
   }
    
   .dropdown-menu {
-    background:#03727d
+    background: #a6795b
   }
   a.dropdown-toggle {
     color:#dfdfdf !important
   }
   a.dropdown-item:hover {
-    color:#03727d !important
+    color:#a6795b !important
   }
   .nav-item a{
     color:#dfdfdf;
   }
+
+  .nav-link.active {
+    color: #a6795b;
+  }
+
   .nav-item a:hover {
-    color:#fff
+    color:#a6795b
   }
   .nav-item{
     min-width:12vw;
   }
   #mainNavigation {
-    position:fixed;
-    top:0;
-    left:0;
+    position: absolute;
     width:100%;
-    z-index:123;
     padding-bottom:120px;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    height: 10vh;
   }
   #navbarNavDropdown.collapsing .navbar-nav,
   #navbarNavDropdown.show .navbar-nav{
-    background:#037582;
+    background:#a6795b;
     padding:12px;
   }
 
-
-  .hero-img {
-width: 100%;
-opacity: 0.7;
-
-
+  .typer {
+    font-family: "Gruppo";
+    font-weight: 400;
   }
-  .hero-section {
-background-color: black;
 
-
+  footer {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
+
+
 
   .carusel{
 overflow: hidden;
@@ -290,13 +305,7 @@ select {
 select {
   word-wrap: normal; }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
 
-button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled) {
@@ -319,17 +328,9 @@ input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
-  -webkit-appearance: listbox; }
 
-textarea {
-  overflow: auto;
-  resize: vertical; }
 
-fieldset {
-  min-width: 0;
-  padding: 0;
-  margin: 0;
-  border: 0; }
+
 
 legend {
   display: block;
@@ -8374,3 +8375,4 @@ color:  #1089ff;
 }
 
     /* ------------------------------footer-section */
+

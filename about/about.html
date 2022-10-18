@@ -12,29 +12,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nothing+You+Could+Do&display=swap"
         rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="about.css">
 </head>
 
 <body>
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <div id="mainNavigation">
+        <nav id="header" role="navigation">
+            <div class="py-3 text-center border-bottom">
+                <img class="logo" src="../img/logo.svg" alt="" class="invert">
+            </div>
+        </nav>
+        <div class="navbar-expand-md">
+            <div class="navbar-dark text-center my-2">
+                <button class="navbar-toggler w-75" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> <span class="align-middle">Menu</span>
+                </button>
+            </div>
+            <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
+                <ul id="menu-list1" class="navbar-nav mx-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/Homepage/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects, testimonils, awards/index.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/shop/shop.html">Shop</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <section id="about-section" class="pt-5 pb-5">
         <div class="container wrapabout">
             <div class="red"></div>
             <div class="row">
-                <div class="col-lg-6 align-items-center justify-content-left d-flex mb-5 mb-lg-0">
+                <div class="col-lg-6 align-items-center  d-flex mb-5 mb-lg-0">
                     <div class="blockabout">
                         <div class="blockabout-inner text-center text-sm-start">
                             <div class="title-big pb-3 mb-3">
                                 <!-- ABOUT ME, TEXT -->
                                 <h3 class="main-title fs-1">Valentina Vlaho</h3>
                             </div>
-                            <p class="description-p text-muted pe-0 pe-lg-0">
+                            <p class="description-p text-muted">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea doloribus delectus deleniti
                                 dolorem voluptatibus quam optio blanditiis tempore ratione praesentium.
                             </p>
-                            <p class="description-p text-muted pe-0 pe-lg-0">Lorem ipsum dolor, sit amet consectetur
+                            <p class="description-p text-muted">Lorem ipsum dolor, sit amet consectetur
                                 adipisicing elit. Reiciendis, perspiciatis ratione! Unde optio exercitationem
                                 voluptatibus cum, ex nesciunt sapiente earum, asperiores officiis repudiandae cumque,
                                 aperiam aliquid molestiae iure. Ratione, explicabo.</p>
@@ -61,6 +93,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- PHOTO WITH THE HAND HOLDING CAMERA -->
                 <div class="col-lg-6 mt-5 mt-lg-0">
                     <figure class="about-photo">
                         <img class="img-fluid"
@@ -70,11 +103,67 @@
                 </div>
             </div>
         </div>
+    </section><br></br>
+
+    <!-------------------- C O N T A C T    F O R M ----------------------------->
+
+    <section class="container-fluid">
+        <h2 class="contact-title font-weight-bold text-left ms-5">CONTACT ME</h2>
+        <p class="text-center w-responsive mx-auto mb-5 text-white">Do you have any questions? </p>
+        <div class="row">
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0 ms-5">
+                                <input type="text" id="name" name="name" placeholder="Name and Last Name"
+                                    class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="md-form mb-0 ms-5">
+                                <input type="text" id="email" name="email" placeholder="E-mail Address"
+                                    class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form ms-5">
+                                <input type="text" id="subject" name="subject" placeholder="Subject"
+                                    class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mt-0">
+                            <div class="md-form ms-5">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea" placeholder="Message..."></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="text-left ms-5 mt-4">
+                    <a id="box" class="sendbutton btn btn-transparent rounded-5 border-dark mb-5">Send</a>
+                </div>
+            </div>
+        </div>
     </section>
+
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="about.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
