@@ -1,3 +1,14 @@
+const myNav = document.getElementById('header')
+
+window.onscroll = function() {
+  if(window.scrollY > 20){
+    myNav.classList.add('scrolled')
+  }else{
+    myNav.classList.remove('scrolled')
+  }
+}
+
+
 document.getElementById('box').addEventListener('click', sendEmail);
 
 
