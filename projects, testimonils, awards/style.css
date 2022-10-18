@@ -159,7 +159,8 @@
     font-size: 1.5rem;
 }
 
-.testi1 {
+.testi1, 
+.testi3 {
   display: flex;
   padding-top: 3%;
   padding-left: 3%;
@@ -167,19 +168,14 @@
   width: 65%;
 }
 
-.testi2 {
+.testi2, 
+.testi4 {
   display: flex;
   padding-left: 6%;
   margin: 2%;
   width: 70%;
 }
 
-.testi3 {
-    display: flex;
-    padding-left: 9%;
-    margin: 2%;
-    width: 80%;
-}
 
 #testi {
     font-size: 22px;
