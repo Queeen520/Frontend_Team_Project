@@ -26,7 +26,7 @@
         width: 350px;
         margin: 50px auto;
         perspective: 1000px;
-        padding-top: 120px;
+        padding-top: 200px;
       }
       .rotator {
         position: absolute;
@@ -92,3 +92,4 @@
         transform: rotateY(calc(40deg * 9)) translateZ(300px);
       }
       
+    
