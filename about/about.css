@@ -135,8 +135,8 @@ body{
   
   
   nav.scrolled{
-    background: rgb(231, 231, 231);
     
+    backdrop-filter: blur(4px);
   }
   .logo {
     width: 45px;
@@ -145,6 +145,9 @@ body{
 
 ul.scrolled li a{
     color: #a6795b;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    background-size: cover;
 }
 
   
