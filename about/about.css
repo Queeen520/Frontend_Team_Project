@@ -79,9 +79,8 @@ a.dropdown-item:hover {
 }
 
 .nav-item a {
-    color: white;
-    
-    text-shadow: 5px 5px 8px 5px;
+    color: #dfdfdf;
+
 }
 
 .nav-link.active {
