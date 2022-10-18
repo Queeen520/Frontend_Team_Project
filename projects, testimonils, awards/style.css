@@ -27,7 +27,7 @@
       .container {
         position: relative;
         width: 350px;
-        margin: 50px auto;
+        margin: auto;
         perspective: 1000px;
         padding-top: 200px;
       }
@@ -159,16 +159,30 @@
     font-size: 1.5rem;
 }
 
-.testi1, 
-.testi2, 
+.testi1 {
+  display: flex;
+  padding-top: 3%;
+  padding-left: 3%;
+  margin: 2%;
+  width: 65%;
+}
+
+.testi2 {
+  display: flex;
+  padding-left: 6%;
+  margin: 2%;
+  width: 70%;
+}
+
 .testi3 {
     display: flex;
-    padding: 3%;
-    width: 50%;
+    padding-left: 9%;
+    margin: 2%;
+    width: 80%;
 }
 
 #testi {
-    font-size: 20px;
+    font-size: 22px;
     font-family: calibri;
     letter-spacing: -1px;
 }
