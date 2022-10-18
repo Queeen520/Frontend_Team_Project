@@ -92,4 +92,10 @@
         transform: rotateY(calc(40deg * 9)) translateZ(300px);
       }
       
-    
+/* work examples */
+
+.workexamples {
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+}
