@@ -4,14 +4,11 @@
     position: relative;
 }
 
-.title-big{
-    font-family: gruppo;
-}
-
 /* Little box with text */
 .blockabout {
     padding: 20px;
     background: white;
+    font-family: Guppo;
 }
 
 .blockabout-inner {
@@ -44,4 +41,18 @@
     font-weight: 700;
     border-radius: 50px;
     transition: all 0.3s;
+}
+
+.sendbutton{
+    border: 2px solid #070707;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 800%;;
+}
+
+.container-fluid{
+    font-family: Gruppo;
 }
