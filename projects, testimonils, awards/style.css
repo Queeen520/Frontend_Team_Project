@@ -17,9 +17,12 @@
 
     * {
         box-sizing: border-box;
-        margin: 0;
-        padding: 0;
       }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
       
       .container {
         position: relative;
@@ -54,7 +57,7 @@
         height: 100%;
         width: 100%;
         overflow: hidden;
-        border: 2px solid #333;
+        border: 2px solid var(--grey);
       }
       .items:hover img {
         transform: scale(1.2);
@@ -95,7 +98,77 @@
 /* work examples */
 
 .workexamples {
-    border: 2px solid black;
-    width: 100%;
+    margin-top: 25%;
+    padding: 3%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headlinephotos {
+    display: flex;
+    padding-left: 4%;
+    padding-top: 5%;
+    font-family: Marcellus;
+}
+
+#headline {
+    font-size: 2rem;
+    letter-spacing: -1px;
+}
+
+.photoseries {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* companies */
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    margin: 7%;
+}
+
+#companiesheadline {
+    display: flex;
+    font-family: IBM Plex Mono;
+    font-size: 1.5rem;
+}
+
+.companiesLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4%;
+    margin: 2%;
+}
+
+/* Testimonials */
+
+.testi {
+    display: flex;
+    flex-direction: column;
+    margin: 7%;
+}
+
+#testiheadline {
+    display: flex;
+    font-family: IBM Plex Mono;
+    font-size: 1.5rem;
+}
+
+.testi1, 
+.testi2, 
+.testi3 {
+    display: flex;
+    padding: 3%;
+    width: 50%;
+}
+
+#testi {
+    font-size: 20px;
+    font-family: calibri;
+    letter-spacing: -1px;
 }
