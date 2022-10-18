@@ -128,7 +128,7 @@
 .companies {
     display: flex;
     flex-direction: column;
-    margin: 5%;
+    margin: 7%;
 }
 
 #companiesheadline {
@@ -141,18 +141,34 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 5%;
+    padding: 4%;
+    margin: 2%;
 }
 
 /* Testimonials */
 
 .testi {
     display: flex;
-    margin: 5%;
+    flex-direction: column;
+    margin: 7%;
 }
 
 #testiheadline {
     display: flex;
     font-family: IBM Plex Mono;
     font-size: 1.5rem;
+}
+
+.testi1, 
+.testi2, 
+.testi3 {
+    display: flex;
+    padding: 3%;
+    width: 50%;
+}
+
+#testi {
+    font-size: 20px;
+    font-family: calibri;
+    letter-spacing: -1px;
 }
