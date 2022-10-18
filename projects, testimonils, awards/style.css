@@ -57,7 +57,7 @@
         height: 100%;
         width: 100%;
         overflow: hidden;
-        border: 2px solid #333;
+        border: 2px solid var(--grey);
       }
       .items:hover img {
         transform: scale(1.2);
@@ -121,4 +121,38 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+/* companies */
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+#companiesheadline {
+    display: flex;
+    font-family: IBM Plex Mono;
+    font-size: 1.5rem;
+}
+
+.companiesLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+/* Testimonials */
+
+.testi {
+    display: flex;
+    margin: 5%;
+}
+
+#testiheadline {
+    display: flex;
+    font-family: IBM Plex Mono;
+    font-size: 1.5rem;
 }
