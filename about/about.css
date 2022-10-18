@@ -79,8 +79,9 @@ a.dropdown-item:hover {
 }
 
 .nav-item a {
-    color: #dfdfdf;
-    text-shadow: 2px 2px 2px 2px;
+    color: white;
+    
+    text-shadow: 5px 5px 8px 5px;
 }
 
 .nav-link.active {
@@ -138,5 +139,9 @@ body{
     background: rgb(231, 231, 231);
     
   }
+  .logo {
+    width: 45px;
+    height: 45px;
+}
 
   
