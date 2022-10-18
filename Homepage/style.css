@@ -75,7 +75,6 @@
   }
 
 
-
   .carusel{
 overflow: hidden;
 
@@ -305,7 +304,13 @@ select {
 select {
   word-wrap: normal; }
 
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+   button; }
 
+button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled) {
@@ -328,9 +333,17 @@ input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
+  -webkit-appearance: listbox; }
 
+textarea {
+  overflow: auto;
+  resize: vertical; }
 
-
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0; }
 
 legend {
   display: block;
@@ -8375,4 +8388,4 @@ color:  #1089ff;
 }
 
     /* ------------------------------footer-section */
-
+    
