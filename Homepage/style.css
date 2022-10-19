@@ -1,80 +1,71 @@
 .logo {
-    width: 45px;
-    height: 45px;
+  width: 45px;
+  height: 45px;
 }
-
 #main-page {
-  height: 100vh;
-  width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/close-up-view-male-hand-holding-professional-camera-street.jpg);
-  background-size: cover;
+height: 100vh;
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/close-up-view-male-hand-holding-professional-camera-street.jpg);
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#main-page h1 {
+color: white;
+}
+#mainNavigation a {
+  font-family: 'Gruppo', sans-serif;
+  font-size:14px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  text-shadow:1px 1px 2px rgba(0,0,0,0.4)
+}
+.dropdown-menu {
+  background: #A6795B
+}
+a.dropdown-toggle {
+  color:#dfdfdf !important
+}
+a.dropdown-item:hover {
+  color:#a6795b !important
+}
+.nav-item a{
+  color:#dfdfdf;
+}
+.nav-link.active {
+  color: #A6795B;
+}
+.nav-item a:hover {
+  color:#a6795b
+}
+.nav-item{
+  min-width:12vw;
+}
+#mainNavigation {
+  position: absolute;
+  width:100%;
+  padding-bottom:120px;
+  height: 10vh;
+}
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown.show .navbar-nav{
+  background:#a6795b;
+  padding:12px;
+}
+.typer {
+  font-family: "Gruppo";
+  font-weight: 400;
+}
+footer {
+  height: 10vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 }
-
-#main-page h1 {
-  color: white;
+i {
+  display: flex;
+  flex-direction: row;
 }
-
-#mainNavigation a {
-    font-family: 'Gruppo', sans-serif;
-    font-size:14px;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    text-shadow:1px 1px 2px rgba(0,0,0,0.4)
-  }
-   
-  .dropdown-menu {
-    background: #a6795b
-  }
-  a.dropdown-toggle {
-    color:#dfdfdf !important
-  }
-  a.dropdown-item:hover {
-    color:#a6795b !important
-  }
-  .nav-item a{
-    color:#dfdfdf;
-  }
-
-  .nav-link.active {
-    color: #a6795b;
-  }
-
-  .nav-item a:hover {
-    color:#a6795b
-  }
-  .nav-item{
-    min-width:12vw;
-  }
-  #mainNavigation {
-    position: absolute;
-    width:100%;
-    padding-bottom:120px;
-    height: 10vh;
-  }
-  #navbarNavDropdown.collapsing .navbar-nav,
-  #navbarNavDropdown.show .navbar-nav{
-    background:#a6795b;
-    padding:12px;
-  }
-
-  .typer {
-    font-family: "Gruppo";
-    font-weight: 400;
-  }
-
-  footer {
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  i {
-    display: flex;
-    flex-direction: row;
-  }
