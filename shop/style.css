@@ -80,23 +80,20 @@ footer {
   width: 100%;
   background-color: black;
   padding-top: 10px;
+  color: white;
 }
-  p{
-      color: white;
+  p {
       font-size: 13px;
       padding-left: 10px;
   }
   
  a {
-    color: white;
       padding: 10px;
-      text-decoration: none;
       font-size: 10px;
       font-size: 13px;
   }
 
   .last {
-    color: white;
       display: flex;
       justify-content: center;
       padding-left: 40px;
