@@ -6,7 +6,7 @@
 
 /* Little box with text */
 .blockabout {
-    padding: 20px;
+   padding: 30px;
     background: white;
     font-family: Guppo;
 }
@@ -122,19 +122,6 @@ a.dropdown-item:hover {
     font-weight: 400;
 }
 
-footer {
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-i {
-    display: flex;
-    flex-direction: row;
-}
-
 body{
     min-height: 2px;
   }
@@ -157,7 +144,9 @@ ul.scrolled li a{
     background-size: cover;
 }
 
-footer {
+ /* footer */
+  
+ footer {
     margin-top: 100px;
     border: 2px solid black;
     width: 100%;
@@ -182,3 +171,4 @@ footer {
         padding-left: 40px;
         padding-right: 40px;
     }
+  
