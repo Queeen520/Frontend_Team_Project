@@ -99,7 +99,7 @@ a.dropdown-item:hover {
     position: sticky;
     top: 0px;
     width: 100%;
-    padding-bottom: 120px;
+    padding-bottom: 135px;
     height: 10vh;
     z-index: 9;
 }
@@ -108,6 +108,13 @@ a.dropdown-item:hover {
 #navbarNavDropdown.show .navbar-nav {
     background: #a6795b;
     padding: 12px;
+}
+
+.navbar-toggler{
+
+    backdrop-filter: blur(2px);
+    font-weight: bold;
+    
 }
 
 .typer {
@@ -135,8 +142,8 @@ body{
   
   
   nav.scrolled{
-    background: rgb(231, 231, 231);
     
+    backdrop-filter: blur(4px);
   }
   .logo {
     width: 45px;
@@ -145,6 +152,7 @@ body{
 
 ul.scrolled li a{
     color: #a6795b;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    background-size: cover;
 }
-
-  
