@@ -69,3 +69,33 @@ i {
   display: flex;
   flex-direction: row;
 }
+
+
+
+
+/* footer */
+  
+footer {
+  border: 2px solid black;
+  width: 100%;
+  background-color: black;
+  padding-top: 10px;
+  color: white;
+}
+  p {
+      font-size: 13px;
+      padding-left: 10px;
+  }
+  
+ a {
+      padding: 10px;
+      font-size: 10px;
+      font-size: 13px;
+  }
+
+  .last {
+      display: flex;
+      justify-content: center;
+      padding-left: 40px;
+      padding-right: 40px;
+  }
