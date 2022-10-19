@@ -98,7 +98,7 @@
 /* work examples */
 
 .workexamples {
-    margin-top: 25%;
+    margin-top: 20%;
     padding: 3%;
     display: flex;
     flex-direction: column;
@@ -133,8 +133,10 @@
 
 #companiesheadline {
     display: flex;
+    margin-bottom: 3%;
     font-family: IBM Plex Mono;
-    font-size: 1.5rem;
+    letter-spacing: -1px;
+    font-size: 25px;
 }
 
 .companiesLogo {
@@ -155,25 +157,48 @@
 
 #testiheadline {
     display: flex;
+    margin-bottom: 5%;
     font-family: IBM Plex Mono;
-    font-size: 1.5rem;
-}
+    letter-spacing: -1px;
+    font-size: 25px;
+  }
 
 .testi1, 
 .testi3 {
   display: flex;
-  padding-top: 3%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   padding-left: 3%;
-  margin: 2%;
+  padding-right: 3%;
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   width: 65%;
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .testi2, 
 .testi4 {
   display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   padding-left: 6%;
-  margin: 2%;
+  padding-right: 6%;
+  margin-left: 9%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   width: 70%;
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 
