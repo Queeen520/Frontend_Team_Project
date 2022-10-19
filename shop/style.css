@@ -76,6 +76,7 @@ a.dropdown-item:hover {
   /* footer */
   
 footer {
+  margin-top: 100px;
   border: 2px solid black;
   width: 100%;
   background-color: black;
