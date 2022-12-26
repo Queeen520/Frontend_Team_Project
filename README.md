@@ -1,3 +1,10 @@
-# 1 • Final Project:
+# 1 • Final Project FRONTEND - Team Project:
 
-Team Project - Photographers Portfolio 
+Photographers Portfolio
+
+Technologies used:
+
+- HTML
+- CSS
+- Bootstrap
+- Javascript
